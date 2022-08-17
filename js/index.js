@@ -2,7 +2,7 @@ const container = document.querySelector('.blogs');
 
 
 const renderPosts = async () => {
-    let uri = 'http://localhost:3000/posts/';
+    let uri = 'http://localhost:3000/posts?_sort=likes&_order=desc';
 
     const res = await fetch(uri);
     const post = await res.json();
