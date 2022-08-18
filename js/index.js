@@ -25,9 +25,6 @@ const renderPosts = async (term) => {
     });
 
     container.innerHTML = template;
-
-
-
 };
 
 searchForm.addEventListener('submit', (e) => {

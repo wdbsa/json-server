@@ -13,16 +13,10 @@
       "likes": 18
     },
     {
-      "title": "test",
-      "body": "hello world",
+      "title": "rewrite some code",
+      "body": "loprem ipsum\n",
       "likes": 0,
-      "id": 4
-    },
-    {
-      "title": "tetete test",
-      "body": "asd",
-      "likes": 0,
-      "id": 5
+      "id": 3
     }
   ]
 }

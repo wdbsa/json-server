@@ -16,8 +16,8 @@ const renderDetails = async () => {
 };
 
 
-deleteBtn.addEventListener('click', async (e) => {
-    const res = await fetch('http://localhost:3000/posts/' + id, {
+deleteBtn.addEventListener('click', async () => {
+    await fetch('http://localhost:3000/posts/' + id, {
         method: 'DELETE'
     });
 
